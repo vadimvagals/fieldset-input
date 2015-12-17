@@ -2,40 +2,41 @@
   position: relative; }
   .form-group.fieldset.focused .control-label {
     top: -12px;
-    background-color: #66afe9;
+    font-size: 16px;
+    background-color: #2873c4;
     color: #fff; }
   .form-group.fieldset.focused .form-control {
     border-width: 2px;
-    border-color: #66afe9; }
+    border-color: #2873c4; }
   .form-group.fieldset .control-label {
-    top: 13px;
+    top: 12px;
+    left: 15px;
+    max-width: 100%;
     position: absolute;
     display: inline-block;
-    max-width: 100%;
     cursor: text;
-    left: 15px;
+    outline: 0;
+    font-size: 18px;
+    padding: 3px 10px;
+    color: #ccc;
+    opacity: 1;
     transition-property: all;
     transition-duration: .15s;
-    transition-timing-function: ease-in-out;
-    outline: 0;
-    padding: 3px 5px;
-    color: #999;
-    opacity: 1; }
+    transition-timing-function: ease-in-out; }
   .form-group.fieldset .form-control {
     transition-property: all;
     transition-duration: .15s;
     transition-timing-function: ease-in-out;
+    height: 50px;
     background-color: #fff;
+    color: #212121;
     display: block;
     width: 100%;
-    height: 40px;
-    padding: 10px 12px;
-    font-size: 14px;
+    padding: 10px 20px;
+    font-size: 15px;
     line-height: 1.42857143;
-    color: #555;
     background-image: none;
-    border: 0 solid #ccc;
-    border-bottom-width: 2px;
+    border: 1px solid #ccc;
     margin: 0;
     outline: none;
     box-sizing: border-box; }

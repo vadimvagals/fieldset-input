@@ -1,4 +1,4 @@
-$fieldset-input-border-color-focused: #66afe9;
+$fieldset-input-border-color-focused: #2873c4;
 $fieldset-input-background-color: #fff;
 
 .form-group.fieldset {
@@ -8,9 +8,11 @@ $fieldset-input-background-color: #fff;
   &.focused {
     .control-label {
       top: -12px;
+      font-size: 16px;
       background-color: $fieldset-input-border-color-focused;
       color: $fieldset-input-background-color;
     }
+
     .form-control {
       border-width: 2px;
       border-color: $fieldset-input-border-color-focused;
@@ -18,19 +20,21 @@ $fieldset-input-background-color: #fff;
   }
 
   .control-label {
-    top: 13px;
+    top: 12px;
+    left: 15px;
+    max-width: 100%;
     position: absolute;
     display: inline-block;
-    max-width: 100%;
     cursor: text;
-    left: 15px;
+    outline: 0;
+    font-size: 18px;
+    padding: 3px 10px;
+    color: #ccc;
+    opacity: 1;
+
     transition-property: all;
     transition-duration: .15s;
     transition-timing-function: ease-in-out;
-    outline: 0;
-    padding: 3px 5px;
-    color: #999;
-    opacity: 1;
   }
 
   .form-control {
@@ -38,17 +42,18 @@ $fieldset-input-background-color: #fff;
     transition-duration: .15s;
     transition-timing-function: ease-in-out;
 
+    height: 50px;
     background-color: $fieldset-input-background-color;
+
+    color: #212121;
+
     display: block;
     width: 100%;
-    height: 40px;
-    padding: 10px 12px;
-    font-size: 14px;
+    padding: 10px 20px;
+    font-size: 15px;
     line-height: 1.42857143;
-    color: #555;
     background-image: none;
-    border: 0 solid #ccc;
-    border-bottom-width: 2px;
+    border: 1px solid #ccc;
     margin: 0;
     outline: none;
     box-sizing: border-box;
