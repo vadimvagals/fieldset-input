@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>fieldset-input example</title>
+    <link rel="stylesheet" href="../dist/fieldset-input.css">
+    <style>
+        form {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+<form role="form">
+    <div class="form-group fieldset">
+        <label class="control-label" for="test">Label</label>
+        <input type="text" class="form-control" name="test" id="test">
+    </div>
+</form>
+
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="../dist/fieldset-input.min.js"></script>
+<script>
+    (function ($) {
+        $('.form-group.fieldset').fieldsetInput();
+    })(jQuery);
+</script>
+</body>
+</html>
