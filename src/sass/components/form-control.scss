@@ -7,7 +7,7 @@ $fieldset-input-background-color: #fff;
 
   &.focused {
     .control-label {
-      top: -12px;
+      top: -11px;
       font-size: 16px;
       background-color: $fieldset-input-border-color-focused;
       color: $fieldset-input-background-color;
@@ -20,7 +20,7 @@ $fieldset-input-background-color: #fff;
   }
 
   .control-label {
-    top: 12px;
+    top: 11px;
     left: 15px;
     max-width: 100%;
     position: absolute;

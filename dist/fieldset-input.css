@@ -1,7 +1,7 @@
 .form-group.fieldset {
   position: relative; }
   .form-group.fieldset.focused .control-label {
-    top: -12px;
+    top: -11px;
     font-size: 16px;
     background-color: #2873c4;
     color: #fff; }
@@ -9,7 +9,7 @@
     border-width: 2px;
     border-color: #2873c4; }
   .form-group.fieldset .control-label {
-    top: 12px;
+    top: 11px;
     left: 15px;
     max-width: 100%;
     position: absolute;
