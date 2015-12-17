@@ -1,5 +1,6 @@
 .form-group.fieldset {
-  position: relative; }
+  position: relative;
+  margin: 0 0 19px 0; }
   .form-group.fieldset.focused .control-label {
     top: -11px;
     font-size: 16px;
